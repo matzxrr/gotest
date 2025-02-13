@@ -1,7 +1,10 @@
+// This is just a test package that says hello
 package hello
 
 import "fmt"
 
+// Says hello
 func SayHello() {
-	fmt.Println("Hello!")
+	name := "stupid"
+	fmt.Println(name)
 }
